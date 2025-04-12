@@ -1,0 +1,75 @@
+{
+  "dependencies": {
+    "@types/got": "^9.6.12",
+    "@types/sql.js": "^1.4.9",
+    "axios": "^0.27.2",
+    "better-sqlite3": "^11.9.1",
+    "chalk": "5.4.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "date-format": "^4.0.13",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "got": "^14.4.5",
+    "inquirer": "12.3.0",
+    "mkdirp": "3.0.1",
+    "module-alias": "^2.2.3",
+    "node-notifier": "^10.0.1",
+    "node-unzip-2": "^0.2.8",
+    "p-limit": "^6.2.0",
+    "puppeteer": "^23.11.1",
+    "sql.js": "^1.12.0",
+    "tronweb": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "undetected-browser": "^2.0.4",
+    "unzipper": "^0.12.3",
+    "youtubei.js": "^13.3.0",
+    "zip-lib": "^0.7.3"
+  },
+  "name": "yt-commenter",
+  "version": "1.0.0",
+  "description": "Auto Comment Youtube Videos",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun src/index.ts",
+    "dev": "tsx src/index.ts",
+    "fast": "tsx src/run.ts",
+    "wy": "tsx  src/watch-video.ts",
+    "login": "tsx src/login.ts",
+    "gdata": "tsx src/get-data.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegal1337/Youtube-Auto-Commenter.git"
+  },
+  "keywords": [
+    "Yt"
+  ],
+  "author": "Abdul Muttaqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tegal1337/Youtube-Auto-Commenter/issues"
+  },
+  "_moduleAliases": {
+    "#lib/*": "src/lib/",
+    "#src/*": "src/",
+    "#test/*": "test/",
+    "#utils/*": "src/utils/",
+    "#config/*": "src/config/",
+    "#database/*": "src/database/",
+    "#insideheartz/*": "src/lib/Bot/",
+    "#types/*": "src/types/"
+  },
+  "homepage": "https://github.com/tegal1337/Youtube-Auto-Commenter#readme",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "drizzle-kit": "^0.30.6",
+    "eslint": "^8.33.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
