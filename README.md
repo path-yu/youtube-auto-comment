@@ -37,12 +37,3 @@ make `.env` like .env.example and fill the username and password google
 - Comment Options
 - Copy Comments, Direct manual from Comment, Load Comments from CSV
 
-
-# Request Feature?
-
-- you can contact me through telegram { @imtaqin}
-
-           
-
-# Author
-- @taqin (https://imtaqin.id)
