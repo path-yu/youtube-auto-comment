@@ -5,9 +5,6 @@
 <h1 align="center"> Youtube Auto Commenter </h1>
 Youtube Bot Auto Commenter Using Puppeter and NodeJS
     </p>
-
-## Demo :
-[https://www.youtube.com/watch?v=cAB6DYSis7Q&t=87s](https://www.youtube.com/watch?v=cAB6DYSis7Q&t=87s)
     
 # Requerements
 
